@@ -17,7 +17,7 @@ while True:
     if HP > 2000:
         print('吃的太多，受不了了')
         break
-    if HP < 0:
+    if HP <= 0:
         print('太累了，不行了')
         break
     if message == 'eat':  #判断进食

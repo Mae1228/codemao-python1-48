@@ -359,7 +359,7 @@
 359#appetite#n.食欲，欲望#
 360#applaud#v.称赞，拍手喝彩#
 361#applause#n.喝彩，欢呼#
-362#apple#n.苹果#pear,
+362#apple#n.苹果#
 363#appliance#n.用具，器械#
 364#applicable#adj.生动的，适用的#
 365#applicant#n.申请人#

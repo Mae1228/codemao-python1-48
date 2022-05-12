@@ -10,8 +10,8 @@ from datetime import date
 a = date.today()
 week = date.isoweekday(a)
 print('今天是：'+str(a)+' 星期：'+str(week))
-b = date(2020, 6, 28)
-c = date(2020, 7, 1)
+b = date(2022, 6, 8)
+c = date(2022, 7, 15)
 res1 = (b - a).days
 res2 = (c - a).days
 print('距离考试还有：'+str(res1)+'天')

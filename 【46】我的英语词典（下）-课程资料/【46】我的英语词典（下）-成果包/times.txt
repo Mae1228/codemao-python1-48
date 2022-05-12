@@ -1018,7 +1018,7 @@ captain#0
 caption#0
 captive#0
 capture#0
-car#0
+car#4
 caravan#0
 carbon#0
 card#0
@@ -7735,7 +7735,7 @@ wallet#0
 walnut#0
 wander#0
 want#0
-war#0
+war#1
 ward#0
 wardrobe#0
 ware#0

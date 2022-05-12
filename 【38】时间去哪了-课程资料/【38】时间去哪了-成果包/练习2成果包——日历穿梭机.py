@@ -12,6 +12,6 @@ if m1 == m2:
      print(calendar.month(y, m1))
 else:
     for i in range(m1,m2+1):
-        print(calendar.month(y, i + 1))
+        print(calendar.month(y, i))
         print('*' * 20)
 

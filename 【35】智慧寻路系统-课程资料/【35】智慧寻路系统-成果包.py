@@ -1,5 +1,5 @@
 ite = input('请输入学校坐标（例：9 9）：').split()
-print(ite)
+# print(ite)
 n, m = map(int, ite)
 a = []
 for i in range(n+1):
