@@ -16,11 +16,10 @@ str.split(分割符,分割次数)：
     分隔符：不写默认是空格
     分割次数：不写默认是全部分割
 
-
-
-
-
-
+练习题：
+    B
+    C 
+    
 '''
 
 '''map()'''
@@ -36,54 +35,54 @@ str.split(分割符,分割次数)：
 
 
 '''项目'''
-a=input('请输入学校坐标（例：9 9）：').split()
-print(a)
-n,m=map(int,a)
-print(n,m)
-lst=[]
-for i in range(n+1):
-    l=[]
-    for j in range(m+1):
-        l.append(0)
-    lst.append(l)
-print(lst)
-k=int(input('请输入施工路口数（例：1）：'))
-for i in range(k):
-    b=input('请输入施工路口坐标，注意0<x<n且0<y<m（例：4 4）：').split()
-    x,y=map(int,b)
-    lst[x][y]=-1        #标志位：表示封路点
-    lst[x-1][y]=-1
-    lst[x+1][y]=-1
-    lst[x][y-1]=-1
-    lst[x][y+1]=-1
-print(lst)
-for i in range(n+1):
-    for j in range(m+1):
-        if i == 0 and j == 0:
-            lst[i][j] = 1
-        elif i != 0 and j == 0:  #横坐标轴上
-            if lst[i][j] == -1:
-                lst[i][j] = 0
-            else:   #左侧方案数
-                lst[i][j] = lst[i-1][j]
-        elif i == 0 and j != 0:     #纵坐标轴上
-            if lst[i][j] == -1:
-                lst[i][j] = 0
-            else:   #上侧的方案数
-                lst[i][j] = lst[i][j-1]
-        else:
-            if lst[i][j] == -1:
-                lst[i][j] = 0
-            else:   #左侧方案数+上侧的方案数
-                lst[i][j] = lst[i-1][j]+lst[i][j - 1]
-print(lst)
-print(lst[n][m])
+# a=input('请输入学校坐标（例：9 9）：').split()
+# print(a)
+# n,m=map(int,a)
+# print(n,m)
+# lst=[]
+# for i in range(n+1):
+#     l=[]
+#     for j in range(m+1):
+#         l.append(0)
+#     lst.append(l)
+# print(lst)
+# k=int(input('请输入施工路口数（例：1）：'))
+# for i in range(k):
+#     b=input('请输入施工路口坐标，注意0<x<n且0<y<m（例：4 4）：').split()
+#     x,y=map(int,b)
+#     lst[x][y]=-1        #标志位：表示封路点
+#     lst[x-1][y]=-1
+#     lst[x+1][y]=-1
+#     lst[x][y-1]=-1
+#     lst[x][y+1]=-1
+# print(lst)
+# for i in range(n+1):
+#     for j in range(m+1):
+#         if i == 0 and j == 0:
+#             lst[i][j] = 1
+#         elif i != 0 and j == 0:  #横坐标轴上
+#             if lst[i][j] == -1:
+#                 lst[i][j] = 0
+#             else:   #左侧方案数
+#                 lst[i][j] = lst[i-1][j]
+#         elif i == 0 and j != 0:     #纵坐标轴上
+#             if lst[i][j] == -1:
+#                 lst[i][j] = 0
+#             else:   #上侧的方案数
+#                 lst[i][j] = lst[i][j-1]
+#         else:
+#             if lst[i][j] == -1:
+#                 lst[i][j] = 0
+#             else:   #左侧方案数+上侧的方案数
+#                 lst[i][j] = lst[i-1][j]+lst[i][j - 1]
+# print(lst)
+# print(lst[n][m])
 
 
 
 
 
-
+'''--------------------------------------------------------------------------------------------------------------------------------'''
 
 
 
