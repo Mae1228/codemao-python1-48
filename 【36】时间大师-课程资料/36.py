@@ -27,7 +27,12 @@ time.localtime(时间戳)：
     接收时间戳（1970纪元后经过的浮点秒数）并返回当地时间下的时间元组
     时间戳：浮点秒数，缺省时默认为又time()返回的当前时间
     
-
+os.system('cls')：
+    清除控制台在本命令之前输出的内容
+    语法格式：
+        import os
+        os.system('cls')
+    
 
 
 
@@ -126,21 +131,40 @@ time.localtime(时间戳)：
 
 
 
+
+'''os.system('cls')'''
+# import os
+# print('hhhh')
+# os.system('cls')
+# # print('\033c', end='')
+
+
+
+
+
 '''练习3'''
-import os
-print('hhhh')
-os.system('cls')
+# import time
+# import os
+# def t(a,b,c):
+#     return str(a)+':'+str(b)+':'+str(c)
+#
+# def main():
+#     while True:
+#         os.system('cls')
+#         tup=time.localtime()
+#         h=tup[3]
+#         m=tup[4]
+#         s=tup[5]
+#         print(t(h,m,s))
+#         time.sleep(1)
+#
+# main()
 
 
 
 
 
-
-
-
-
-
-
+'''--------------------------------------------------------------------------------------------------------------------------------------------------'''
 
 
 

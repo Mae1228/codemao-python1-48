@@ -135,90 +135,61 @@ continue和break的异同点：
 
 
 
-# a=int(input('请输入应付多少：'))
-# y=100-a
-# while True:
-#     if y==0:
-#         break
-#     if y>=50:
-#         y-=50
-#         print(50)
-#     elif y>=20:
-#         y-=20
-#         print(20)
-#     elif y>=10:
-#         y-=10
-#         print(10)
-#     elif y>=5:
-#         y-=5
-#         print(5)
-#     elif y>=1:
-#         y-=1
-#         print(1)
-
-
-
-
-# a=int(input('请输入应付多少：'))
-# m=0     #总金额，实际收款
-# while True:
-#     s = input('收钱：')
-#     if s == 'end':
-#         break
-#     m+=int(s)
-# print('实际收款:',m)
-# y=m-a
-# while True:
-#     if y==0:
-#         break
-#     if y>=50:
-#         y-=50
-#         print(50)
-#     elif y>=20:
-#         y-=20
-#         print(20)
-#     elif y>=10:
-#         y-=10
-#         print(10)
-#     elif y>=5:
-#         y-=5
-#         print(5)
-#     elif y>=1:
-#         y-=1
-#         print(1)
 
 
 
 
 
-a=int(input('请输入应付多少：'))
-m=0     #总金额，实际收款
-while True:
-    s = input('收钱：')
-    if s == 'end':
-        break
-    m+=int(s)
-print('实际收款:',m)
-y=m-a
-m50=m20=m10=m5=m1=0     #面额的张数
-while True:
-    if y==0:
-        break
-    if y>=50:
-        y-=50
-        print(50)
-    elif y>=20:
-        y-=20
-        print(20)
-    elif y>=10:
-        y-=10
-        print(10)
-    elif y>=5:
-        y-=5
-        print(5)
-    elif y>=1:
-        y-=1
-        print(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

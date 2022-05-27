@@ -36,14 +36,18 @@ if __name__ == '__main__'作用：
     包1.子包1.模块1.函数1()       a.函数1()     
 
 t.setheading(角度)：以坐标系为基准，设置海龟朝向为某个角度
-t.left\t.right(旋转角度)：以海龟当前朝向为基准，向左\向右旋转某个角度
+t.left、t.right(旋转角度)：以海龟当前朝向为基准，向左\向右旋转某个角度
 
+练习题：
+    A 
+    B
+    B
+    
 '''
 
 '''专属模块-成果包-codemao_head\features\eyes2.py'''
 # # 导入绘图工具箱
 # import turtle as t
-#
 # # 眼睛函数
 # def codemao_eyes():
 #     #右眼
@@ -94,7 +98,6 @@ t.left\t.right(旋转角度)：以海龟当前朝向为基准，向左\向右旋
 '''专属模块-成果包-codemao_head\features\mouth2.py'''
 # # 导入绘图工具箱
 # import turtle as t
-#
 # # 嘴巴函数
 # def codemao_mouth():
 #     t.pensize(5)
@@ -112,6 +115,8 @@ t.left\t.right(旋转角度)：以海龟当前朝向为基准，向左\向右旋
 #     t.pendown()
 #     t.circle(-20, 90)
 #     t.hideturtle()
+
+
 
 
 
