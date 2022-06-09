@@ -1,11 +1,11 @@
 '''无限的质数-阶段3'''
 
-#搜索一定范围内的所有质数
-head = int(input('请输入起始数：'))
-tail = int(input('请输入终止数：'))
-for i in range(head, tail + 1):
-    for j in range(2, i):
-        if i % j == 0:
-            break
-    else:
-        print(i)
+#用for循环判断是否为质数
+number = int(input('请输入数字:'))
+for j in range(2, number):
+    if number % j == 0:
+        print(number, '不是质数')
+        break
+else:
+    print(number, '是质数')
+
