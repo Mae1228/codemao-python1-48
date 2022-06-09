@@ -153,18 +153,131 @@ while循环嵌套：
 
 
 
-a=int(input('输入数字：'))
-astr=str(a)
-s=''        #反向的字符串
-i=len(astr)-1       #索引  下标
-while i >= 0:
-    s+=astr[i]
-    i-=1
-print(s)
-if s==astr:
-    print(a,'是回文数')
-else:
-    print(a, '不是回文数')
+# a=int(input('输入数字：'))
+# astr=str(a)
+# s=''        #反向的字符串
+# i=len(astr)-1       #索引  下标
+# while i >= 0:
+#     s+=astr[i]
+#     i-=1
+# print(s)
+# if s==astr:
+#     print(a,'是回文数')
+# else:
+#     print(a, '不是回文数')
+
+
+
+
+
+# 左右对称
+
+
+# 如果索引取到的元素相等则继续比较，如果不等则不是回文数
+# 比较完后才是回文数
+
+
+# a=int(input('输入数字：'))
+# astr=str(a)
+# t=0     #头的下标
+# w=len(astr)-1        #尾的下标
+# while t<w:
+#     if astr[t]  !=  astr[w]:
+#         print(a, '不是回文数')
+#         break
+#     t+=1
+#     w-=1
+# else:
+#     print(a,'是回文数')
+
+'''
+*:
+    字符串：复制
+    数字：乘法
+
++:
+    字符串：拼接
+    数字：加法
+
+'''
+
+
+# print('' * (输入-行数) + '~' * (行数*2-1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

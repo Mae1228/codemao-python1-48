@@ -104,20 +104,43 @@
 
 
 
-# 有条件的循环   双分支if else    随机库 random
-import random
-print('开始猜数字游戏吧！')
-m=random.randint(0,10)     #谜底
-print(m)
-c=1     #次数
-while c <= 3:
-    a=int(input('请输入一个数：'))
-    if m == a:
-        print('恭喜！猜对了！')
-        break
-    else:
-        print('猜错了')
-    c+=1
+# # 有条件的循环   双分支if else    随机库 random
+# import random
+# print('开始猜数字游戏吧！')
+# m=random.randint(0,10)     #谜底
+# print(m)
+# c=1     #次数
+# while c <= 3:
+#     a=int(input('请输入一个数：'))
+#     if m == a:
+#         print('恭喜！猜对了！')
+#         break
+#     else:
+#         print('猜错了')
+#     c+=1
+
+
+
+
+# # 有条件的循环   多分支if elif  else    随机库 random
+# import random
+# print('开始猜数字游戏吧！')
+# m=random.randint(0,10)     #谜底
+# print(m)
+# c=1     #次数
+# while c <= 3:
+#     a=int(input('第'+str(c)+'次：'))
+#     if m == a:
+#         print('恭喜！猜对了！')
+#         break
+#     elif a > m:
+#         print('猜大了')
+#     else:
+#         print('猜小了')
+#     c+=1
+# else:
+#     print('正确数字是'+str(m)+',没有机会了...')
+
 
 
 
@@ -125,18 +148,29 @@ while c <= 3:
 # 有条件的循环   多分支if elif  else    随机库 random
 import random
 print('开始猜数字游戏吧！')
-m=random.randint(0,10)     #谜底
+m=random.randint(0,100)     #谜底
 print(m)
 c=1     #次数
+x=0     #最小值
+d=100   #最大值
 while c <= 3:
-    a=int(input('第'+str(c)+'次：'))
+    a=int(input('第' + str(c) + '次（' + str(x) + '-' + str(d) + '）：'))
     if m == a:
         print('恭喜！猜对了！')
         break
     elif a > m:
+        d=a-1
         print('猜大了')
     else:
+        x=a+1
         print('猜小了')
     c+=1
 else:
     print('正确数字是'+str(m)+',没有机会了...')
+
+
+
+
+a='11 gg格式,**'
+
+print(len(a))

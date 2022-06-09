@@ -17,11 +17,11 @@ while i <= 3:
     elif message > number:
         print('不对，猜大了哦')
         #stamp3:修改范围
-        end = message
+        end = message-1
     elif message < number:
         print('不对，猜小了哦')
         #stamp4:修改范围
-        start = message
+        start = message+1
     i += 1
 else:
     print('正确数字是' + str(number) + ',没有机会了...')
